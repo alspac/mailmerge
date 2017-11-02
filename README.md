@@ -4,12 +4,12 @@ Use to send emails to participants. Set up the email template as required which 
 
 ## Config
 The following config works from UOB servers.
-
+```
 host = localhost
 port = 25
 security = Never
 username = None
-
+```
 # mailmerge
 A simple, command line mail merge tool.
 
