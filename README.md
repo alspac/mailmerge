@@ -1,3 +1,15 @@
+# ALSPAC Usage
+
+Use to send emails to participants. Set up the email template as required which includes the from address. This now supports character encodings, yey! We can do HTML emails by creating an appropriate template, see example in docs below. Would be nice to have something with a tinymce style editor to generate the template, can't find one so make one?
+
+## Config
+The following config works from UOB servers.
+
+host = localhost
+port = 25
+security = Never
+username = None
+
 # mailmerge
 A simple, command line mail merge tool.
 
